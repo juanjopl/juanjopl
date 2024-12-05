@@ -1,5 +1,5 @@
-const text1 = `Antes de scrollear y conocer mis proyectos y mis habilidades, debes saber que soy un desarrollador web que hace poco termino sus estudios en DAW, y estoy listo para comenzar mi carrera de forma profesional, siempre con muchas ganas de seguir aprendiendo y con una ambición inimaginable.`;
-const text2 = `Después de esto, ya estás list@ para conocer qué es lo que he hecho en mi primer año.`;
+const text1 = `Antes de que continúe y conozca mis proyectos y habilidades, quiero que sepa que soy un desarrollador web que hace poco terminó sus estudios en DAW. Estoy listo para comenzar mi carrera de forma profesional, siempre con muchas ganas de seguir aprendiendo y con una ambición inimaginable`;
+const text2 = `Después de esto, ya está list@ para conocer qué es lo que he hecho en mi primer año.`;
 
 const id1 = document.getElementById("parrafo1");
 const id2 = document.getElementById("parrafo2");
