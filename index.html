@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Mundo</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/stack.css">
+    <link rel="stylesheet" href="styles/contact.css">
+
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/contact.js"></script>
+    <script defer src="scripts/parrafo.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Hola! Sí, soy Juanjo</h1>
+        <h2>Desarrollador Web</h2>
+        <div class="social-links">
+            <a href="https://github.com/juanjopl" target="_blank" class="social-link"><img src="assets/images/github.png" alt=""></a>
+            <a href="https://linkedin.com/in/juanjopl" target="_blank" class="social-link"><img src="assets/images/linkedin.png" alt=""></a>
+        </div>
+        <p class="bio" id="parrafo1">
+            
+        </p>
+        <p class="bio" id="parrafo2">
+            
+        </p>
+    </header>
+
+    <section class="projects">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <img src="assets/images/comudin.png" alt="Proyecto 1">
+                <div class="project-info">
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <p>El objetivo de este proyecto es desarrollar una plataforma web en la que se fusione la parte visual que tiene
+                        aplicaciones como Instagram, con la rápida y dinámica comunicación que tiene X. No
+                        solo eso sino también tener dos espacios, uno en el que el usuario pueda subir
+                        publicaciones de un tipo, y otro de otro. Además, los usuarios no solo se pueden comunicar mediante comentarios, si no que tambien pueden desde mensajes.</p>
+                    <a href="https://github.com/juanjopl/comudin" class="project-link">Ver en GitHub</a>
+                </div>
+            </article>
+            <article class="project-card card2">
+                <img src="assets/images/shopee.png" alt="Proyecto 2">
+                <div class="project-info">
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <p>Este proyecto se fue desarrollando mientras realizaba mis estudios, trata sobre una web como Wallapop en la que los usuarios pueden subir los productos que quieran vender,
+                        y pueden ofertar por los que hay disponibles. Además de ello, a la hora de entrar en la negociación por un producto, entre el comprador y el vendedor se generaran una serie de contraofertas hasta que lleguen a un acuerdo.
+                        (Fue desarollado durante el aprendizaje de PHP en DAW)
+                    </p>
+                    <a href="https://github.com/juanjopl/shopee" class="project-link">Ver en GitHub</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="stack">
+        <h2>Stack</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <img src="assets/images/js.png" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/php.png" alt="PHP">
+                <span>PHP</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/csharp.png" alt="C#">
+                <span>C#</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/java.png" alt="Java">
+                <span>Java</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/react.png" alt="React">
+                <span>React</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/git.png" alt="Git">
+                <span>Git</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/jenkins.png" alt="Jenkins">
+                <span>Jenkins</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/devops.png" alt="Azure DevOps">
+                <span>Azure DevOps</span>
+            </div>
+            <div class="tech-item">
+                <img src="assets/images/mysql.png" alt="MySQL">
+                <span>MySQL</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contáctame</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-text"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-text"></span>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" required></textarea>
+                <span class="error-text"></span>
+            </div>
+            <button type="submit" class="submit-btn">Enviar mensaje</button>
+            <div class="form-message"></div>
+        </form>
+    </section>
+
+</body>
+</html>

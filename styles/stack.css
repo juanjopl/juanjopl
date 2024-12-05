@@ -1,0 +1,35 @@
+.tech-grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 50px; /* Espaciado entre los elementos */
+    max-width: 1000px; /* Ajusta el ancho máximo según necesites */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-top: 2rem;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tech-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(
+        0 0 20px rgba(0, 0, 0, .8)
+    );
+}
+
+.tech-item:hover img {
+    transform: scale(1.1);
+}
+
+.tech-item span {
+    font-size: 0.875rem;
+    font-weight: 500;
+}

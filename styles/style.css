@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "font1";
+    src: url("../assets/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF");
+}
+
+:root {
+    --primary-color: #646cff;
+    --secondary-color: #535bf2;
+    --bg-color: #242424;
+    --text-color: rgba(255, 255, 255, 0.87);
+    --card-bg: #1a1a1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "font1";
+    line-height: 1.5;
+    color: var(--text-color);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,9,121,1) 49%, rgba(106,0,255,1) 100%);
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff;
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #242424;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+}
