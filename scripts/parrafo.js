@@ -1,4 +1,4 @@
-const text1 = `Antes de que continúe y conozca mis proyectos y habilidades, quiero que sepa que soy un desarrollador web que hace poco terminó sus estudios en DAW. Estoy listo para comenzar mi carrera de forma profesional, siempre con muchas ganas de seguir aprendiendo y con una ambición inimaginable`;
+const text1 = `Antes de que continúe y conozca mis proyectos y habilidades, quiero que sepa que soy un desarrollador web que hace poco terminó sus estudios en DAW. Estoy listo para comenzar mi carrera de forma profesional, siempre con muchas ganas de seguir aprendiendo y con una ambición inimaginable.`;
 const text2 = `Después de esto, ya está list@ para conocer qué es lo que he hecho en mi primer año.`;
 
 const id1 = document.getElementById("parrafo1");
@@ -20,7 +20,7 @@ function typeText(text, id, delay = 10) {
 
 function type() {
     typeText(text1, id1, 10);
-    setTimeout(() => typeText(text2, id2, 10), text1.length * 10 + 1500);
+    setTimeout(() => typeText(text2, id2, 10), text1.length * 10 + 800);
 }
 
 window.addEventListener("load", type);
